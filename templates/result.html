@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Prediction</title>
+</head>
+<body>
+    <h2>Your news:</h2>
+    <p>{{news}}</p>
+    <ul>
+        <li> Count Vectorizer and Logistic Regression CV model predicts your news is: {{cvl_prediction}}.</li>
+        <li> Count Vectorizer and Multinomial Naive Bayes model predicts your news is: {{cvmnb_prediction}}.</li>
+        <li> Count Vectorizer and Random Forest model predicts your news is: {{cvrf_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Logistic Regression CV model predicts your news is: {{tfl_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Multinomial Naive Bayes model predicts your news is: {{tfmnb_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Random Forest model predicts your news is: {{tfrf_prediction}}.</li>
+    </ul>
+    <h1>{{conclusion}}</h1>
+
+</body>
+</html>
