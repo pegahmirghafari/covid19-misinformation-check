@@ -1,3 +1,4 @@
 # covid19-misinformation-check
 predicting misinformation with 91.4% accuracy 
-**misinfo.pegahmirghafari.com**
+
+**plrease refere to this link for the [app](http://misinfo.pegahmirghafari.com/)**
